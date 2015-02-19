@@ -2,8 +2,8 @@
 //  main.m
 //  ContaPessoas
 //
-//  Created by Vinicius Miana on 2/18/15.
-//  Copyright (c) 2015 Vinicius Miana. All rights reserved.
+//  Created by Rafael Souza Belchior da Silva on 2/19/15.
+//  Copyright (c) 2015 Rafael Souza Belchior da Silva. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
