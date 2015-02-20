@@ -6,11 +6,18 @@
 //  Copyright (c) 2015 Rafael Souza Belchior da Silva. All rights reserved.
 //
 
+@protocol ContadorAtualiza <NSObject>
+
+@required
+-(void) atualiza;
+@end
+
 @interface Contador : NSObject
 
-- (void)maisUmCueca;
-- (void)maisUmaGata;
+@property (nonatomic,strong) id delegate;
 
+-(void)maisUmCueca;
+-(void)maisUmaGata;
 -(int)getBoys;
 -(int)getGirls;
 -(int)getTotal;
